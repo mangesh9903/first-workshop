@@ -7,6 +7,7 @@ public class Gambler {
 
     public static void main(String[] args) {
 
+        System.out.println("New Branch1");
         Gambler gambler = new Gambler();
         System.out.println("******* Welcome to Gambler Game *******");
         gambler.checkWinOrLose();
@@ -23,4 +24,7 @@ public class Gambler {
             System.out.println(" Player Lose ");
         }
     }
+
+
+
 }
